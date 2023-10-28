@@ -454,7 +454,7 @@ form{
 }
 .bottom-galery{
   width: 800px;
-  padding-top: 50px;
+  margin: 50px 0 0 0;
   height: 140px;
   display: flex;
   gap: 50px;
@@ -490,6 +490,7 @@ form{
 }
 
 .product-promotions img{
+  cursor: pointer;
   width: 250px;
   margin-bottom: 10px;
 }
@@ -562,17 +563,50 @@ form{
   height: 130px;
 }
 .product-type-element .notactive{
+  cursor: pointer;
   border: 1px solid rgb(0, 0, 0);;
+  border-radius: 10px;
+  height: 150px;
+  transition: all .01s ease-in-out;
+
+}
+
+.product-type-element .notactive:hover{
+  border: 3px solid rgb(0, 0, 0);;
   border-radius: 10px;
   height: 150px;
 
 }
 
-
 .product-type-element .notactive img{
   padding: 5px;
   width: 120px;
 }
+.row-actions{
+  margin: 120px 0 0 100px;
+  display: flex;
+  gap: 75px;
+  font-size: 20px;
+  width: auto;
+
+}
+.row-actions span{
+  margin: 0 0 0 8px;
+}
+.row-actions span:hover{
+  
+  text-decoration: underline;
+}
+.row-actions img{
+  height: 35px;
+  vertical-align:middle;
+}
+.action-element{
+  cursor: pointer;
+  text-align: center;
+
+}
+
 
 @media only screen and (max-width: 900px) {
 }
@@ -681,6 +715,7 @@ form{
   .hover-menu:hover + .account-arrow img {
     transform: rotate(180deg);
   }
+  
   .my-account span:first-child {
     font-weight: 600;
     margin-top: 18px;
