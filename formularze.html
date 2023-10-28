@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="./media/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Media Expert | Sklep internetowy</title>
+  </head>
+  <body>
+    <header>
+      <a class="my-account-tags" href="index.html"><h1 class="header-title">
+        <span>media</span>
+        <span>expert</span> 
+        <span>&#x25BA;</span>
+      </h1></a>
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-bar-input"
+          placeholder="Wyszukaj w sklepie..."
+          autocomplete="off"
+        />
+        <div class="search-bar-icon">
+          <img src="./media/lupa.svg" alt="search-icon" style="height: 30px" />
+        </div>
+      </div>
+      <div class="avatar">
+        <img
+          src="./media/avatar.svg"
+          alt="avatar"
+          height="50px"
+          class="avatar"
+        />Moje konto
+      </div>
+
+      <div class="hover-menu">
+        <div class="my-account">
+          <a class="my-account-tags" href="#"><span>Moje konto</span> </a>
+
+          <span>Zaloguj/Zarejestruj</span>
+        </div>
+        <div class="hover-menu-content">
+          <a class="my-account-tags" href="#"><span>Zamówienia</span> </a>
+          <a class="my-account-tags" href="#"><span>Paragony i faktury</span> </a>
+          <a class="my-account-tags" href="#"><span>Moje dane</span> </a>
+          <a class="my-account-tags" href="#"><span>Kupony rabatowe</span> </a>
+          <a class="my-account-tags" href="#"><span>Porównania</span> </a>
+          <a class="my-account-tags" href="#"><span>Opinie</span> </a>
+          <a class="my-account-tags" href="/formularze.html"><span>Reklamacje</span> </a>
+          <a class="my-account-tags" href="#"><span>Zwroty</span> </a>
+        </div>
+      </div>
+      <div class="account-arrow">
+        <img src="./media/arrow_down.svg" alt="arrow" height="30px" />
+      </div>
+
+      <div class="header-basket">
+        <img
+          src="./media/shopping-cart.svg"
+          alt="shopping-cart-icon"
+          height="30px"
+        />Koszyk
+      </div>
+    </header>
+
+    <main class="container2">
+      <div class="main-title">
+        <h1>Formularz Reklamacyjny</h1>
+      </div>
+
+      <div class="main-content">
+        <form action="" method="get">
+          <div class="form-input">
+            <legend>Imię Zgłaszającego <span>*</span></legend>
+            <input type="text" placeholder="Imię" required />
+          </div>
+          <div class="form-input">
+            <legend>Nazwisko Zgłaszającego <span>*</span></legend>
+            <input type="text" placeholder="Nazwisko" required />
+          </div>
+
+          <div class="form-input">
+            <legend>E-mail <span>*</span></legend>
+            <input type="email" placeholder="Adres E-Mail" required />
+          </div>
+          <div class="form-input">
+            <legend>Numer Telefonu <span>*</span></legend>
+            <input
+              type="tel"
+              placeholder="Telefon"
+              maxlength="13"
+              value="+48 "
+              required
+            />
+          </div>
+          <div class="form-input">
+            <legend>Numer Zgłaszanego Zamówienia <span>*</span></legend>
+            <input
+              type="text"
+              placeholder="Numer Zamówienia"
+              maxlength="12"
+              required
+            />
+          </div>
+
+          <div class="form-input">
+            <legend>Opisz swój problem:</legend>
+            <textarea name="" id="" cols="55" rows="10"></textarea>
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" style="width: 40px" required />
+            <span>*</span>
+            <p>Oświadczam, że zapoznałem(-am) się i akceptuję treść</p>
+            <a href="#">Regulaminu</a>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" style="width: 30px" />
+            <p>
+              Chcę otrzymywać na podany adres e-mail oraz numer telefonu
+              informacje o
+              <span style="color: rgb(65, 168, 95)"
+                >limitowanych okazjach, najlepszych promocjach i kody
+                rabatowe</span
+              >
+            </p>
+          </div>
+          <br />
+          <div class="form-input">
+            <input type="submit" />
+          </div>
+        </form>
+        <div class="right-wrapper">
+          TEST
+        </div>
+    </main>
+  </body>
+</html>
